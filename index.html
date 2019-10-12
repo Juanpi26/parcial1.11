@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <head>
+         <title></title>
+         <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <div id="principal">
+            <header>
+                <div id="logo">
+                    <h2 class="titulo"> </h2>
+                </div>
+
+                <nav class="menu">
+            <ul>
+                <li><a href="index.html"><span class="primero"><i><font size="6" face="Georgia" color="33ffff">♠</font></i></span>Inicio</a></li>
+                <li><a href="noticias.html"><span class="segundo"><i><font size="6" face="Georgia" color="33ffff">♣</font></i></span>Noticias</a>
+                <ul>
+                    <li><a href="#">Item #1</a></li>
+                    <li><a href="#">Item #2</a></li>
+                    <li><a href="#">Item #3</a></li>
+                    <li><a href="#">Item #4</a></li>
+                    <li><a href="#">Item #5</a></li>
+                </ul>
+                </li>
+                <li><a href="#"><span class="tercero"><i><font size="6" face="Georgia" color="33ffff">♥</font></i></span>Categoria</a>
+                    <ul>
+                    <li><a href="#">Baseball</a></li>
+                    <li><a href="#">Football</a></li>
+                    <li><a href="#">Basketball</a></li>
+                    </ul>
+                <li><a href="#"><span class="cuarto"><i><font size="6" face="Georgia" color="33ffff">♦</font></i></span>Contactos</a>
+                    <ul>
+                        <li><a href="Facebook.com">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    </ul>
+                <li><a href="#"><span class="quinto"><i><font size="6" face="Georgia" color="33ffff">♫</font></i></span>Mas</a>
+            </ul>
+        </nav>
+
+            </header>
+                    <div class="main">
+           <div class="slides">
+               <img src="slider_img/1.jpg" alt="">
+               <img src="slider_img/2.jpg" alt="">
+               <img src="slider_img/3.jpg" alt="">
+           </div>
+       </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script>
+    $(function(){
+      $(".slides").slidesjs({
+        play: {
+          active: true,
+          effect: "slide",
+          interval: 3000,
+          auto: true,
+          swap: true,
+             pauseOnHover: false,
+              restartDelay: 2500
+            }
+          });
+        });
+        </script>
+
+                    <section class="uno">
+                         <img src="img/lidom.jpg"width="314" height="200">
+                         <h3>LIDOM:</h3>
+                         <p class="parrafo">Liga de beisbol profesional de la Republica Dominicana(LIDOM),es una liga invernal que consiste en seis equipos de béisbol que representan diferentes ciudades del país. Los equipos incluyen jugadores de las Grandes Ligas, Ligas Menores, Japón, México. </p>
+                           <a href="" class="leer-mas">Leer mas</a><br><br>
+                    </section>
+
+                    <section class="uno">
+                        <img src="img/equipos.jpg" width="314" height="200">
+                        <h3>Equipos de la liga invernal dominicana:</h3>
+                        <p class="parrafo">Formada por seis equipos, dentro de ellos estan Los Tigres del Licey, fundado el 7 de noviembre de 1907, es uno de los equipos que representa la capital y a su vez el mas viejo.</p>
+                        <a href="" class="jum">Leer mas</a><br><br>
+
+                    </section>
+
+                    <section class="uno">
+                        <img src="img/campeon.jpg" width="314" height="200">
+                        <h3>Actual equipo campeon de la liga invernal:</h3>
+                        <p class="parrafo">Las Estrellas Orientales vienen de ganar el campeonato contra los Toros del Este, rompiendo el hielo, ganando su primer campeonato y dandole el tan esperado triunfo a ese pueblo que lo esperaba desde hace decadas.</p>
+                        <a href="" class="jam">Leer mas</a><br><br>
+                    </section>
+                </section><!--/categorias-->
+                <footer>
+                        <iframe id="mapa" width="1000" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.713417262691!2d-69.66484998545755!3d18.451316676105133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf7ff3f1653e37%3A0xc80c36909a523777!2sInstituto%20Tecnol%C3%B3gico%20de%20Las%20Am%C3%A9ricas%20(ITLA)!5e0!3m2!1ses-419!2sdo!4v1569090864053!5m2!1ses-419!2sdo" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <p>Derechos reservados &copy 2019-2020
+                            Creado por: <a href="juanpapi2626@gmail.com">Creador</a></p>
+                </footer>  
+        </div>
+    </body>
+</html>
+
